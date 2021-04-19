@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(131, 143, 143),
+    rgba(255, 255, 255, 0.75)
+  );
+}
+
+.app__logo {
+  margin-top: 10px;
+}
+
+.app__body {
+  padding: 20px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 90%;
+  margin: 20px;
+  border-radius: 33px !important;
+  filter: opacity(1);
+}
+
+.app__form {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app > h5 {
+  color: lightgray;
+}
+
+.app__input {
+  flex: 1;
+}
+
+.app__icon {
+  flex: 0;
+}
